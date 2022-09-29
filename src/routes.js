@@ -5,5 +5,6 @@ const CarroController = require('./controllers/CarroController') //para enxergar
 
 router.get('/carros', CarroController.buscarTodos) // criando endpoint /carros
 router.get('/carro/:codigo', CarroController.buscarUm) // criando novo endpoint
+router.post('/carro', CarroController.inserir)
 
 module.exports = router

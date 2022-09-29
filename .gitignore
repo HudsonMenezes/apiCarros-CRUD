@@ -2,3 +2,4 @@ variaveis.env
 
 #ignorar todos .env
 *.env
+./variaveis.env

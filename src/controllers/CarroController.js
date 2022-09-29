@@ -74,7 +74,7 @@ module.exports = {
   },
 
   excluir: async (req, res) => {
-    let json = { error: '', result: 'Carro Excluido com Sucesso' }
+    let json = { error: '', result: 'Carro Excluido com Sucesso!' }
 
     await CarroService.excluir(req.params.codigo)
 

@@ -9,6 +9,8 @@ const server = express()
 server.use(cors())
 server.use(bodyParser.urlencoded({ extended: false }))
 
+server.use('/api', routes) // vai fazer com que os endereços das rotas tenham esse prefiro /api
+
 server.listen(process.env.PORT, () => {
   console.log(`Servidor rodando em: http://localhost:${process.env.PORT}`)
 })

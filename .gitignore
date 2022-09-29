@@ -1,1 +1,4 @@
 variaveis.env
+
+#ignorar todos .env
+*.env
